@@ -1,7 +1,6 @@
 <Page>
     <Page.actionBar>
-        <ActionBar title= "This is my first ActionBar!">
-
-        </ActionBar>
+        <ActionBar title= "This is my first ActionBar!"></ActionBar>
     </Page.actionBar>
+    <Button text="My first button" tap="buttonPressed"></Button>
 </Page>
