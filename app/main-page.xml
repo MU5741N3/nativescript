@@ -2,6 +2,10 @@
     <Page.actionBar>
         <ActionBar title= "This is my first ActionBar!"></ActionBar>
     </Page.actionBar>
-    <!--<Button text="My first button" tap="buttonPressed"></Button>-->
-    <Label text="NativeScript is pretty dope!" fontSize="50" textWrap="true" textAlignment="center"/>
+    <!--<Button text="My first button" tap="buttonPressed"></Button>
+    <Label text="NativeScript is pretty dope!" fontSize="50" textWrap="true" textAlignment="center"/> -->
+
+    <AbsoluteLayout>
+    <Button text="My first button" tap="buttonPressed" left="100" top="100"></Button>
+    </AbsoluteLayout>
 </Page>
