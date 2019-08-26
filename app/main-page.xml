@@ -5,7 +5,8 @@
     <!--<Button text="My first button" tap="buttonPressed"></Button>
     <Label text="NativeScript is pretty dope!" fontSize="50" textWrap="true" textAlignment="center"/> -->
 
-    <AbsoluteLayout>
-    <Button text="My first button" tap="buttonPressed" left="100" top="100"></Button>
-    </AbsoluteLayout>
+    <StackLayout orientation="vertical" width="210" heigth="210" backgroundColor="lightblue">
+    <Label text="First element in Stack" fontSize="20"/>
+    <Button text="My first button in Stack" tap="buttonPressed" left="100" top="100"></Button>
+    </StackLayout>
 </Page>
