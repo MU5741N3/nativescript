@@ -10,5 +10,5 @@ exports.myFunction = args => {
         page.bindingContext = {
             message: "Something else now"
         }
-    }, 2000)
+    }, 4000)
 }

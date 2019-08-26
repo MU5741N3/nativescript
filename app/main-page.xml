@@ -1,11 +1,7 @@
-<Page navigatingTo="myFunction" class="page">
-
+<Page>
     <Page.actionBar>
-        <ActionBar title="Hello World" icon="" class="action-bar">
+        <ActionBar title= "This is my first ActionBar!">
+
         </ActionBar>
     </Page.actionBar>
-
-    <StackLayout>
-        <Label text="{{ message }}"/>
-    </StackLayout>
 </Page>
