@@ -6,8 +6,8 @@
     <Label text="NativeScript is pretty dope!" fontSize="50" textWrap="true" textAlignment="center"/> -->
 
     <FlexboxLayout flexDirection="column" justifyContent="center" alignItems="center">
-        <TextField hint="Enter Usernmame" text="{{ username }}" marginBottom="30"  />
-        <label text=" {{ username }}"></label>
-        <button class="btn btn-primary" text="Login"></button>
+        <TextField hint="Enter Usernmame" text="{{ username }}" marginBottom="30"/>
+        <TextField hint="Enter Password" secure="true" text="{{ password }}" marginBottom="30"/>
+        <button class="btn btn-primary" tap="onTap" text="Login"></button>
     </FlexboxLayout>
 </Page>
