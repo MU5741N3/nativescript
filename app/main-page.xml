@@ -5,10 +5,9 @@
     <!--<Button text="My first button" tap="buttonPressed"></Button>
     <Label text="NativeScript is pretty dope!" fontSize="50" textWrap="true" textAlignment="center"/> -->
 
-    <FlexboxLayout flexWrap="wrap" flexDirection="row" height="500" backgroundColor="blue">
-        <label text="First child" width="100" height="100" backgroundColor="green"/>
-        <label text="Second child" width="100" height="100" backgroundColor="red"/>
-        <label text="Third child" width="100" height="100" backgroundColor="yellow"/>
-        <label text="Four child" width="100" height="100" backgroundColor="purple"/> 
+    <FlexboxLayout flexDirection="column" justifyContent="center" alignItems="center">
+        <TextField hint="Enter Usernmame" marginBottom="30"  />
+        <TextField hint="Enter Password" secure="true" marginBottom="30" />
+        <button text="Login"></button>
     </FlexboxLayout>
 </Page>
