@@ -1,4 +1,4 @@
-<Page>
+<Page loaded="onLoaded">
     <Page.actionBar>
         <ActionBar title= "This is my first ActionBar!"></ActionBar>
     </Page.actionBar>
@@ -6,8 +6,8 @@
     <Label text="NativeScript is pretty dope!" fontSize="50" textWrap="true" textAlignment="center"/> -->
 
     <FlexboxLayout flexDirection="column" justifyContent="center" alignItems="center">
-        <TextField hint="Enter Usernmame" marginBottom="30"  />
-        <TextField hint="Enter Password" secure="true" marginBottom="30" />
-        <button text="Login"></button>
+        <TextField hint="Enter Usernmame" text="{{ username }}" marginBottom="30"  />
+        <label text=" {{ username }}"></label>
+        <button class="btn btn-primary" text="Login"></button>
     </FlexboxLayout>
 </Page>
