@@ -1,14 +1,11 @@
 //Create Binding context
+const { Observable } = require('tns-core-modules/data/observable')
+
 exports.onLoaded = args => {
     const page = args.object
 
-    page.bindingContext = {
-    username: "admin"
-    }
-let i = 0
-    setInterval(() => {
-        page.bindingContext = {
-            username: `admin${i++}`
-        }
-    },1000)
+    const model = new Observable()
+    model.set("username","admin")
+
+    page.bindingContext = model
 }
