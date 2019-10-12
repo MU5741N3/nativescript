@@ -1,0 +1,4 @@
+<Page>
+    <ActionBar text="Page 2"></ActionBar>
+    <button class="btn btn-primary" tap="onTap" text="Go Back"></button>
+</Page>

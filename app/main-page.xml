@@ -5,10 +5,5 @@
     <!--<Button text="My first button" tap="buttonPressed"></Button>
     <Label text="NativeScript is pretty dope!" fontSize="50" textWrap="true" textAlignment="center"/> -->
 
-    <FlexboxLayout flexDirection="column" justifyContent="center" alignItems="center">
-        <TextField hint="Enter Usernmame" text="{{ user.username }}" marginBottom="30"/>
-        <TextField hint="Enter Password" secure="true" text="{{ user.password }}" marginBottom="30"/>
-        <label text="{{ user.username }}"></label>
-        <button class="btn btn-primary" tap="onTap" text="Login"></button>
-    </FlexboxLayout>
+    <button class="btn btn-primary" tap="onTap" text="Navigate to ..."></button>
 </Page>
